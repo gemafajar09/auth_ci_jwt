@@ -1,0 +1,9 @@
+- composer require firebase/php-jwt
+- composer require paragonie/sodium_compat
+- composer require chriskacerguis/codeigniter-restserver
+
+
+header : {
+    'Content-Type' : 'pplication/x-www-form-urlencoded',
+    'Authorization' : 'Bearer **masukan token**'
+}
